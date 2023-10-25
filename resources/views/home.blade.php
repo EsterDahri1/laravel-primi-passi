@@ -831,7 +831,7 @@
 </head>
 
 <body class="antialiased">
-    {{message}}
+    {{$message}}
 </body>
 
 </html>
