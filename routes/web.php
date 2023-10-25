@@ -17,3 +17,13 @@ Route::get('/', function () {
     $message = 'Hello World - Laravel 10';
     return view('home', compact('message'));
 });
+
+Route::get('/about', function () {
+    $message = 'Hello World - Laravel 10';
+    return view('about', compact('message'));
+});
+
+Route::get('/contacts', function () {
+    $message = 'Hello World - Laravel 10';
+    return view('contacts', compact('message'));
+});
