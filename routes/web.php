@@ -19,11 +19,11 @@ Route::get('/', function () {
 });
 
 Route::get('/about', function () {
-    $message = 'Hello World - Laravel 10';
+    $message = 'about';
     return view('about', compact('message'));
 });
 
 Route::get('/contacts', function () {
-    $message = 'Hello World - Laravel 10';
+    $message = 'contacts';
     return view('contacts', compact('message'));
 });
