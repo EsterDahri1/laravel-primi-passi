@@ -831,7 +831,7 @@
 </head>
 
 <body class="antialiased">
-    Hello world!
+    {{message}}
 </body>
 
 </html>
